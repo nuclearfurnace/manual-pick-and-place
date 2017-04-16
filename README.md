@@ -4,7 +4,7 @@ A manual pick-and-place platform for DIY electronics, with an upgrade path.
 ## the goal
 We want a solid pick and place table for manually placing components on prototypes and small runs.
 
-IY pick and place machines have successfully used off-the-shelf aluminum extrusions and linear guides/bearings to build rigid platforms that are suitable for precise work, even down to 0402 components.  There is a wide gulf, however, between manual set-ups and automatic/CNC machines.
+DIY pick and place machines have successfully used off-the-shelf aluminum extrusions and linear guides/bearings to build rigid platforms that are suitable for precise work, even down to 0402 components.  There is a wide gulf, however, between manual set-ups and automatic/CNC machines.
 
 Most manual setups involve tweezers or vacuum pens, which open up issues like gripping parts, dropping parts, dragging your hand across the board, etc. Even "advanced" manual setups are usually cobbled together, with parts you buy from a Home Depot or Lowes.
 
