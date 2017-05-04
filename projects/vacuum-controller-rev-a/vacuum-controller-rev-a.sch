@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1104,7 +1104,7 @@
 <library name="cui">
 <packages>
 <package name="MJ-3536N">
-<pad name="P$1" x="-5.6" y="0" drill="3"/>
+<pad name="P$1" x="-8.1" y="0" drill="3"/>
 <pad name="P$2" x="5.6" y="0" drill="3"/>
 <pad name="P$3" x="3.1" y="-5.2" drill="3"/>
 <wire x1="-10.4" y1="5" x2="8.89" y2="5" width="0.127" layer="51"/>
