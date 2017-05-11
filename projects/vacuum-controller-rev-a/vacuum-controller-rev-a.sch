@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -554,6 +554,890 @@
 <wire x1="-2.35" y1="-1.6" x2="-2.35" y2="1.6" width="0.127" layer="21"/>
 <wire x1="2.35" y1="1.6" x2="2.35" y2="-1.6" width="0.127" layer="21"/>
 </package>
+<package name="PANASONIC_A">
+<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package A&lt;/b&gt;</description>
+<wire x1="-1.6" y1="1.6" x2="0.8" y2="1.6" width="0.1016" layer="51"/>
+<wire x1="0.8" y1="1.6" x2="1.6" y2="0.8" width="0.1016" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1016" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="0.8" y2="-1.6" width="0.1016" layer="51"/>
+<wire x1="0.8" y1="-1.6" x2="-1.6" y2="-1.6" width="0.1016" layer="51"/>
+<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="1.6" width="0.1016" layer="51"/>
+<wire x1="-1.1" y1="0.95" x2="1.1" y2="0.95" width="0.1016" layer="21" curve="-98.369832"/>
+<wire x1="-1.1" y1="-0.95" x2="1.15" y2="-0.9" width="0.1016" layer="21" curve="101.144396"/>
+<wire x1="-1.6" y1="0.95" x2="-1.6" y2="1.6" width="0.1016" layer="21"/>
+<wire x1="-1.6" y1="1.6" x2="0.8" y2="1.6" width="0.1016" layer="21"/>
+<wire x1="0.8" y1="1.6" x2="1.5" y2="0.9" width="0.1016" layer="21"/>
+<wire x1="1.5" y1="-0.9" x2="0.8" y2="-1.6" width="0.1016" layer="21"/>
+<wire x1="0.8" y1="-1.6" x2="-1.6" y2="-1.6" width="0.1016" layer="21"/>
+<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="-0.95" width="0.1016" layer="21"/>
+<wire x1="-0.8" y1="1.2" x2="-0.8" y2="-1.2" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="1.45" width="0.1016" layer="51"/>
+<smd name="-" x="-1.3" y="0" dx="2" dy="1.5" layer="1"/>
+<smd name="+" x="1.3" y="0" dx="2" dy="1.5" layer="1"/>
+<text x="-1.65" y="1.75" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.65" y="-2.825" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.8" y1="-0.3" x2="-1.45" y2="0.3" layer="51"/>
+<rectangle x1="1.45" y1="-0.3" x2="1.8" y2="0.3" layer="51"/>
+<polygon width="0.1016" layer="51">
+<vertex x="-0.85" y="1.1"/>
+<vertex x="-1.15" y="0.8"/>
+<vertex x="-1.35" y="0.3"/>
+<vertex x="-1.35" y="-0.3"/>
+<vertex x="-1.15" y="-0.8"/>
+<vertex x="-0.85" y="-1.1"/>
+<vertex x="-0.85" y="1.05"/>
+</polygon>
+</package>
+<package name="PANASONIC_B">
+<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package B&lt;/b&gt;</description>
+<wire x1="2.1" y1="1" x2="2.1" y2="-1" width="0.1016" layer="51"/>
+<wire x1="-2.1" y1="-2.1" x2="-2.1" y2="2.1" width="0.1016" layer="51"/>
+<wire x1="-1.75" y1="0.85" x2="1.75" y2="0.85" width="0.1016" layer="51" curve="-128.186984"/>
+<wire x1="-1.75" y1="-0.85" x2="1.75" y2="-0.85" width="0.1016" layer="51" curve="128.186984"/>
+<wire x1="-2.1" y1="2.1" x2="1" y2="2.1" width="0.1016" layer="51"/>
+<wire x1="1" y1="2.1" x2="2.1" y2="1" width="0.1016" layer="51"/>
+<wire x1="2.1" y1="-1" x2="1" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="1" y1="-2.1" x2="-2.1" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="-1.2" y1="1.5" x2="-1.2" y2="-1.5" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="1.95" width="0.1016" layer="51"/>
+<smd name="-" x="-1.75" y="0" dx="2.5" dy="1.6" layer="1"/>
+<smd name="+" x="1.75" y="0" dx="2.5" dy="1.6" layer="1"/>
+<text x="-3.166" y="4.586" size="1.016" layer="25">&gt;NAME</text>
+<text x="-3.166" y="3.329" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.3" y1="-0.35" x2="-1.85" y2="0.35" layer="51"/>
+<rectangle x1="1.9" y1="-0.35" x2="2.3" y2="0.35" layer="51"/>
+<polygon width="0.1016" layer="51">
+<vertex x="-1.25" y="1.45"/>
+<vertex x="-1.7" y="0.85"/>
+<vertex x="-1.85" y="0.35"/>
+<vertex x="-1.85" y="-0.4"/>
+<vertex x="-1.7" y="-0.85"/>
+<vertex x="-1.25" y="-1.4"/>
+<vertex x="-1.25" y="1.4"/>
+</polygon>
+<wire x1="-3.302" y1="2.794" x2="3.302" y2="2.794" width="0.127" layer="21"/>
+<wire x1="3.302" y1="2.794" x2="3.302" y2="-2.794" width="0.127" layer="21"/>
+<wire x1="3.302" y1="-2.794" x2="-3.302" y2="-2.794" width="0.127" layer="21"/>
+<wire x1="-3.302" y1="-2.794" x2="-3.302" y2="2.794" width="0.127" layer="21"/>
+<rectangle x1="-2.286" y1="-2.794" x2="-1.27" y2="2.794" layer="21"/>
+</package>
+<package name="PANASONIC_C">
+<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package C&lt;/b&gt;</description>
+<wire x1="-2.6" y1="2.6" x2="1.25" y2="2.6" width="0.1016" layer="51"/>
+<wire x1="1.25" y1="2.6" x2="2.6" y2="1.25" width="0.1016" layer="51"/>
+<wire x1="2.6" y1="1.25" x2="2.6" y2="-1.25" width="0.1016" layer="51"/>
+<wire x1="2.6" y1="-1.25" x2="1.25" y2="-2.6" width="0.1016" layer="51"/>
+<wire x1="1.25" y1="-2.6" x2="-2.6" y2="-2.6" width="0.1016" layer="51"/>
+<wire x1="-2.6" y1="-2.6" x2="-2.6" y2="2.6" width="0.1016" layer="51"/>
+<wire x1="-2.6" y1="0.95" x2="-2.6" y2="2.6" width="0.1016" layer="21"/>
+<wire x1="-2.6" y1="2.6" x2="1.25" y2="2.6" width="0.1016" layer="21"/>
+<wire x1="1.25" y1="2.6" x2="2.6" y2="1.25" width="0.1016" layer="21"/>
+<wire x1="2.6" y1="1.25" x2="2.6" y2="0.95" width="0.1016" layer="21"/>
+<wire x1="2.6" y1="-0.95" x2="2.6" y2="-1.25" width="0.1016" layer="21"/>
+<wire x1="2.6" y1="-1.25" x2="1.25" y2="-2.6" width="0.1016" layer="21"/>
+<wire x1="1.25" y1="-2.6" x2="-2.6" y2="-2.6" width="0.1016" layer="21"/>
+<wire x1="-2.6" y1="-2.6" x2="-2.6" y2="-0.95" width="0.1016" layer="21"/>
+<wire x1="-2.3" y1="0.85" x2="2.3" y2="0.85" width="0.1016" layer="21" curve="-139.434882"/>
+<wire x1="-2.3" y1="-0.85" x2="2.3" y2="-0.85" width="0.1016" layer="21" curve="139.434882"/>
+<wire x1="-1.55" y1="1.85" x2="-1.55" y2="-1.85" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="2.45" width="0.1016" layer="51"/>
+<smd name="-" x="-2.05" y="0" dx="2.6" dy="1.4" layer="1"/>
+<smd name="+" x="2.05" y="0" dx="2.6" dy="1.4" layer="1"/>
+<text x="-2.6" y="2.75" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.65" y="-3.775" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.95" y1="-0.35" x2="-2.4" y2="0.35" layer="51"/>
+<rectangle x1="2.4" y1="-0.35" x2="2.95" y2="0.35" layer="51"/>
+<polygon width="0.1016" layer="51">
+<vertex x="-1.6" y="1.8"/>
+<vertex x="-2" y="1.35"/>
+<vertex x="-2.25" y="0.75"/>
+<vertex x="-2.45" y="0.05"/>
+<vertex x="-2.25" y="-0.75"/>
+<vertex x="-1.95" y="-1.35"/>
+<vertex x="-1.6" y="-1.8"/>
+</polygon>
+</package>
+<package name="PANASONIC_D">
+<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package D&lt;/b&gt;</description>
+<wire x1="-3.25" y1="3.25" x2="1.55" y2="3.25" width="0.1016" layer="51"/>
+<wire x1="1.55" y1="3.25" x2="3.25" y2="1.55" width="0.1016" layer="51"/>
+<wire x1="3.25" y1="1.55" x2="3.25" y2="-1.55" width="0.1016" layer="51"/>
+<wire x1="3.25" y1="-1.55" x2="1.55" y2="-3.25" width="0.1016" layer="51"/>
+<wire x1="1.55" y1="-3.25" x2="-3.25" y2="-3.25" width="0.1016" layer="51"/>
+<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="3.25" width="0.1016" layer="51"/>
+<wire x1="-3.25" y1="0.95" x2="-3.25" y2="3.25" width="0.1016" layer="21"/>
+<wire x1="-3.25" y1="3.25" x2="1.55" y2="3.25" width="0.1016" layer="21"/>
+<wire x1="1.55" y1="3.25" x2="3.25" y2="1.55" width="0.1016" layer="21"/>
+<wire x1="3.25" y1="1.55" x2="3.25" y2="0.95" width="0.1016" layer="21"/>
+<wire x1="3.25" y1="-0.95" x2="3.25" y2="-1.55" width="0.1016" layer="21"/>
+<wire x1="3.25" y1="-1.55" x2="1.55" y2="-3.25" width="0.1016" layer="21"/>
+<wire x1="1.55" y1="-3.25" x2="-3.25" y2="-3.25" width="0.1016" layer="21"/>
+<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="-0.95" width="0.1016" layer="21"/>
+<wire x1="-2.95" y1="0.95" x2="2.95" y2="0.95" width="0.1016" layer="21" curve="-144.299363"/>
+<wire x1="-2.95" y1="-0.95" x2="2.95" y2="-0.95" width="0.1016" layer="21" curve="144.299363"/>
+<wire x1="-2.1" y1="2.25" x2="-2.1" y2="-2.2" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="3.1" width="0.1016" layer="51"/>
+<smd name="-" x="-2.4" y="0" dx="3" dy="1.4" layer="1"/>
+<smd name="+" x="2.4" y="0" dx="3" dy="1.4" layer="1"/>
+<text x="-1.75" y="1" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.75" y="-1.975" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.65" y1="-0.35" x2="-3.05" y2="0.35" layer="51"/>
+<rectangle x1="3.05" y1="-0.35" x2="3.65" y2="0.35" layer="51"/>
+<polygon width="0.1016" layer="51">
+<vertex x="-2.15" y="2.15"/>
+<vertex x="-2.6" y="1.6"/>
+<vertex x="-2.9" y="0.9"/>
+<vertex x="-3.05" y="0"/>
+<vertex x="-2.9" y="-0.95"/>
+<vertex x="-2.55" y="-1.65"/>
+<vertex x="-2.15" y="-2.15"/>
+<vertex x="-2.15" y="2.1"/>
+</polygon>
+</package>
+<package name="PANASONIC_E">
+<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package E&lt;/b&gt;</description>
+<wire x1="-4.1" y1="4.1" x2="1.8" y2="4.1" width="0.1016" layer="51"/>
+<wire x1="1.8" y1="4.1" x2="4.1" y2="1.8" width="0.1016" layer="51"/>
+<wire x1="4.1" y1="1.8" x2="4.1" y2="-1.8" width="0.1016" layer="51"/>
+<wire x1="4.1" y1="-1.8" x2="1.8" y2="-4.1" width="0.1016" layer="51"/>
+<wire x1="1.8" y1="-4.1" x2="-4.1" y2="-4.1" width="0.1016" layer="51"/>
+<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="4.1" width="0.1016" layer="51"/>
+<wire x1="-4.1" y1="0.9" x2="-4.1" y2="4.1" width="0.1016" layer="21"/>
+<wire x1="-4.1" y1="4.1" x2="1.8" y2="4.1" width="0.1016" layer="21"/>
+<wire x1="1.8" y1="4.1" x2="4.1" y2="1.8" width="0.1016" layer="21"/>
+<wire x1="4.1" y1="1.8" x2="4.1" y2="0.9" width="0.1016" layer="21"/>
+<wire x1="4.1" y1="-0.9" x2="4.1" y2="-1.8" width="0.1016" layer="21"/>
+<wire x1="4.1" y1="-1.8" x2="1.8" y2="-4.1" width="0.1016" layer="21"/>
+<wire x1="1.8" y1="-4.1" x2="-4.1" y2="-4.1" width="0.1016" layer="21"/>
+<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="-0.9" width="0.1016" layer="21"/>
+<wire x1="-2.2" y1="3.25" x2="-2.2" y2="-3.25" width="0.1016" layer="51"/>
+<wire x1="-3.85" y1="0.9" x2="3.85" y2="0.9" width="0.1016" layer="21" curve="-153.684915"/>
+<wire x1="-3.85" y1="-0.9" x2="3.85" y2="-0.9" width="0.1016" layer="21" curve="153.684915"/>
+<circle x="0" y="0" radius="3.95" width="0.1016" layer="51"/>
+<smd name="-" x="-3" y="0" dx="3.8" dy="1.4" layer="1"/>
+<smd name="+" x="3" y="0" dx="3.8" dy="1.4" layer="1"/>
+<text x="-1.8" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.8" y="-2.225" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.5" y1="-0.35" x2="-3.8" y2="0.35" layer="51"/>
+<rectangle x1="3.8" y1="-0.35" x2="4.5" y2="0.35" layer="51"/>
+<polygon width="0.1016" layer="51">
+<vertex x="-2.25" y="3.2"/>
+<vertex x="-3" y="2.5"/>
+<vertex x="-3.6" y="1.5"/>
+<vertex x="-3.85" y="0.65"/>
+<vertex x="-3.85" y="-0.65"/>
+<vertex x="-3.55" y="-1.6"/>
+<vertex x="-2.95" y="-2.55"/>
+<vertex x="-2.25" y="-3.2"/>
+<vertex x="-2.25" y="3.15"/>
+</polygon>
+</package>
+<package name="PANASONIC_F">
+<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package F&lt;/b&gt;</description>
+<wire x1="-4.1" y1="4.1" x2="1.8" y2="4.1" width="0.1016" layer="51"/>
+<wire x1="1.8" y1="4.1" x2="4.1" y2="1.8" width="0.1016" layer="51"/>
+<wire x1="4.1" y1="1.8" x2="4.1" y2="-1.8" width="0.1016" layer="51"/>
+<wire x1="4.1" y1="-1.8" x2="1.8" y2="-4.1" width="0.1016" layer="51"/>
+<wire x1="1.8" y1="-4.1" x2="-4.1" y2="-4.1" width="0.1016" layer="51"/>
+<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="4.1" width="0.1016" layer="51"/>
+<wire x1="-4.1" y1="1" x2="-4.1" y2="4.1" width="0.1016" layer="21"/>
+<wire x1="-4.1" y1="4.1" x2="1.8" y2="4.1" width="0.1016" layer="21"/>
+<wire x1="1.8" y1="4.1" x2="4.1" y2="1.8" width="0.1016" layer="21"/>
+<wire x1="4.1" y1="1.8" x2="4.1" y2="1" width="0.1016" layer="21"/>
+<wire x1="4.1" y1="-1" x2="4.1" y2="-1.8" width="0.1016" layer="21"/>
+<wire x1="4.1" y1="-1.8" x2="1.8" y2="-4.1" width="0.1016" layer="21"/>
+<wire x1="1.8" y1="-4.1" x2="-4.1" y2="-4.1" width="0.1016" layer="21"/>
+<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="-1" width="0.1016" layer="21"/>
+<wire x1="-2.2" y1="3.25" x2="-2.2" y2="-3.25" width="0.1016" layer="51"/>
+<wire x1="-3.85" y1="0.9" x2="3.85" y2="0.9" width="0.1016" layer="21" curve="-153.684915"/>
+<wire x1="-3.85" y1="-0.9" x2="3.85" y2="-0.9" width="0.1016" layer="21" curve="153.684915"/>
+<circle x="0" y="0" radius="4" width="0.001" layer="51"/>
+<circle x="0" y="0" radius="3.95" width="0.1016" layer="51"/>
+<smd name="-" x="-3.55" y="0" dx="4" dy="1.6" layer="1"/>
+<smd name="+" x="3.55" y="0" dx="4" dy="1.6" layer="1"/>
+<text x="-1.75" y="1.3" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.75" y="-2.375" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.85" y1="-0.45" x2="-3.9" y2="0.45" layer="51"/>
+<rectangle x1="3.9" y1="-0.45" x2="4.85" y2="0.45" layer="51"/>
+<polygon width="0.1016" layer="51">
+<vertex x="-2.25" y="3.2"/>
+<vertex x="-3" y="2.5"/>
+<vertex x="-3.6" y="1.5"/>
+<vertex x="-3.85" y="0.65"/>
+<vertex x="-3.85" y="-0.65"/>
+<vertex x="-3.55" y="-1.6"/>
+<vertex x="-2.95" y="-2.55"/>
+<vertex x="-2.25" y="-3.2"/>
+<vertex x="-2.25" y="3.15"/>
+</polygon>
+</package>
+<package name="PANASONIC_G">
+<description>&lt;b&gt;Panasonic Aluminium Electrolytic Capacitor VS-Serie Package G&lt;/b&gt;</description>
+<wire x1="-5.1" y1="5.1" x2="2.8" y2="5.1" width="0.1016" layer="51"/>
+<wire x1="2.8" y1="5.1" x2="5.1" y2="2.8" width="0.1016" layer="51"/>
+<wire x1="5.1" y1="2.8" x2="5.1" y2="-2.8" width="0.1016" layer="51"/>
+<wire x1="5.1" y1="-2.8" x2="2.8" y2="-5.1" width="0.1016" layer="51"/>
+<wire x1="2.8" y1="-5.1" x2="-5.1" y2="-5.1" width="0.1016" layer="51"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="5.1" width="0.1016" layer="51"/>
+<wire x1="-5.1" y1="1" x2="-5.1" y2="5.1" width="0.1016" layer="21"/>
+<wire x1="-5.1" y1="5.1" x2="2.8" y2="5.1" width="0.1016" layer="21"/>
+<wire x1="2.8" y1="5.1" x2="5.1" y2="2.8" width="0.1016" layer="21"/>
+<wire x1="5.1" y1="2.8" x2="5.1" y2="1" width="0.1016" layer="21"/>
+<wire x1="5.1" y1="-1" x2="5.1" y2="-2.8" width="0.1016" layer="21"/>
+<wire x1="5.1" y1="-2.8" x2="2.8" y2="-5.1" width="0.1016" layer="21"/>
+<wire x1="2.8" y1="-5.1" x2="-5.1" y2="-5.1" width="0.1016" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="-1" width="0.1016" layer="21"/>
+<wire x1="-4.85" y1="-1" x2="4.85" y2="-1" width="0.1016" layer="21" curve="156.699401"/>
+<wire x1="-4.85" y1="1" x2="4.85" y2="1" width="0.1016" layer="21" curve="-156.699401"/>
+<wire x1="-3.25" y1="3.7" x2="-3.25" y2="-3.65" width="0.1016" layer="51"/>
+<circle x="0" y="0" radius="4.95" width="0.1016" layer="51"/>
+<smd name="-" x="-4.25" y="0" dx="3.9" dy="1.6" layer="1"/>
+<smd name="+" x="4.25" y="0" dx="3.9" dy="1.6" layer="1"/>
+<text x="-2.55" y="1.75" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.55" y="-2.675" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-5.85" y1="-0.45" x2="-4.9" y2="0.45" layer="51"/>
+<rectangle x1="4.9" y1="-0.45" x2="5.85" y2="0.45" layer="51"/>
+<polygon width="0.1016" layer="51">
+<vertex x="-3.3" y="3.6"/>
+<vertex x="-4.05" y="2.75"/>
+<vertex x="-4.65" y="1.55"/>
+<vertex x="-4.85" y="0.45"/>
+<vertex x="-4.85" y="-0.45"/>
+<vertex x="-4.65" y="-1.55"/>
+<vertex x="-4.05" y="-2.75"/>
+<vertex x="-3.3" y="-3.6"/>
+<vertex x="-3.3" y="3.55"/>
+</polygon>
+</package>
+<package name="SANYO-OSCON_9E">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-3.55" y1="0" x2="-2.8" y2="0" width="0.4064" layer="21"/>
+<circle x="0" y="0" radius="3.9" width="0.2032" layer="21"/>
+<pad name="-" x="-1.75" y="0" drill="0.8" diameter="1.27"/>
+<pad name="+" x="1.75" y="0" drill="0.8" diameter="1.27"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SANYO-OSCON_9F">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-4.55" y1="0" x2="-3.6" y2="0" width="0.4064" layer="21"/>
+<circle x="0" y="0" radius="4.9" width="0.2032" layer="21"/>
+<pad name="-" x="-2.5" y="0" drill="0.8" diameter="1.27"/>
+<pad name="+" x="2.5" y="0" drill="0.8" diameter="1.27"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SANYO-OSCON_A">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-1.55" y1="-0.4" x2="-1.55" y2="0.4" width="0.4064" layer="51"/>
+<circle x="0" y="0" radius="1.9" width="0.2032" layer="21"/>
+<pad name="-" x="-1" y="0" drill="0.7" diameter="1.1"/>
+<pad name="+" x="1" y="0" drill="0.7" diameter="1.1"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SANYO-OSCON_A'">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-1.55" y1="-0.4" x2="-1.55" y2="0.4" width="0.4064" layer="51"/>
+<circle x="0" y="0" radius="1.9" width="0.2032" layer="21"/>
+<pad name="-" x="-0.75" y="0" drill="0.6" diameter="1"/>
+<pad name="+" x="0.75" y="0" drill="0.6" diameter="1"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SANYO-OSCON_B">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-1.9" y1="-0.4" x2="-1.9" y2="0.4" width="0.4064" layer="21"/>
+<circle x="0" y="0" radius="2.4" width="0.2032" layer="21"/>
+<pad name="-" x="-1" y="0" drill="0.7" diameter="1.1"/>
+<pad name="+" x="1" y="0" drill="0.7" diameter="1.1"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SANYO-OSCON_B'">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-1.9" y1="-0.4" x2="-1.9" y2="0.4" width="0.4064" layer="21"/>
+<circle x="0" y="0" radius="2.4" width="0.2032" layer="21"/>
+<pad name="-" x="-1" y="0" drill="0.7" diameter="1.1"/>
+<pad name="+" x="1" y="0" drill="0.7" diameter="1.1"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SANYO-OSCON_C">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-2.2" y1="0" x2="-2.7" y2="0" width="0.4064" layer="21"/>
+<circle x="0" y="0" radius="3.05" width="0.2032" layer="21"/>
+<pad name="-" x="-1.25" y="0" drill="0.8" diameter="1.27"/>
+<pad name="+" x="1.25" y="0" drill="0.8" diameter="1.27"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SANYO-OSCON_C'">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-2.2" y1="0" x2="-2.7" y2="0" width="0.4064" layer="21"/>
+<circle x="0" y="0" radius="3.0504" width="0.2032" layer="21"/>
+<pad name="-" x="-1.25" y="0" drill="0.8" diameter="1.27"/>
+<pad name="+" x="1.25" y="0" drill="0.8" diameter="1.27"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SANYO-OSCON_C6">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<circle x="0" y="0" radius="3.05" width="0.2032" layer="21"/>
+<pad name="-" x="-1.25" y="0" drill="0.7" diameter="1.27"/>
+<pad name="+" x="1.25" y="0" drill="0.7" diameter="1.27"/>
+<text x="-1.905" y="3.175" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.2032" layer="21">
+<vertex x="-2.15" y="2.1"/>
+<vertex x="-2.15" y="-2.1" curve="-41.039434"/>
+<vertex x="-3" y="0.1" curve="-41.67409"/>
+</polygon>
+</package>
+<package name="SANYO-OSCON_D">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-2.2" y1="0" x2="-2.7" y2="0" width="0.4064" layer="21"/>
+<circle x="0" y="0" radius="3.05" width="0.2032" layer="21"/>
+<pad name="-" x="-1.25" y="0" drill="0.8" diameter="1.27"/>
+<pad name="+" x="1.25" y="0" drill="0.8" diameter="1.27"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SANYO-OSCON_E">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-3.5" y1="0" x2="-2.7" y2="0" width="0.4064" layer="21"/>
+<circle x="0" y="0" radius="3.9003" width="0.2032" layer="21"/>
+<pad name="-" x="-1.75" y="0" drill="0.8" diameter="1.27"/>
+<pad name="+" x="1.75" y="0" drill="0.8" diameter="1.27"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SANYO-OSCON_E'">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-3.55" y1="0" x2="-2.8" y2="0" width="0.4064" layer="21"/>
+<circle x="0" y="0" radius="3.9" width="0.2032" layer="21"/>
+<pad name="-" x="-1.75" y="0" drill="0.8" diameter="1.27"/>
+<pad name="+" x="1.75" y="0" drill="0.8" diameter="1.27"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SANYO-OSCON_E1">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-3.55" y1="0" x2="-2.75" y2="0" width="0.4064" layer="21"/>
+<circle x="0" y="0" radius="3.9" width="0.2032" layer="21"/>
+<pad name="-" x="-1.75" y="0" drill="0.8" diameter="1.27"/>
+<pad name="+" x="1.75" y="0" drill="0.8" diameter="1.27"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SANYO-OSCON_E12">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<circle x="0" y="0" radius="3.9" width="0.2032" layer="21"/>
+<pad name="-" x="-1.75" y="0" drill="0.8" diameter="1.27"/>
+<pad name="+" x="1.75" y="0" drill="0.8" diameter="1.27"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.2032" layer="21">
+<vertex x="-2.65" y="2.7"/>
+<vertex x="-2.65" y="-2.75" curve="-41.038922"/>
+<vertex x="-3.8" y="0" curve="-41.675057"/>
+</polygon>
+</package>
+<package name="SANYO-OSCON_E13">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<circle x="0" y="0" radius="3.9" width="0.2032" layer="21"/>
+<pad name="-" x="-1.75" y="0" drill="0.8" diameter="1.27"/>
+<pad name="+" x="1.75" y="0" drill="0.8" diameter="1.27"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.2032" layer="21">
+<vertex x="-2.65" y="2.7"/>
+<vertex x="-2.65" y="-2.75" curve="-41.038922"/>
+<vertex x="-3.8" y="0" curve="-41.675057"/>
+</polygon>
+</package>
+<package name="SANYO-OSCON_E7">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<circle x="0" y="0" radius="3.9" width="0.2032" layer="21"/>
+<pad name="-" x="-1.75" y="0" drill="0.7" diameter="1.27"/>
+<pad name="+" x="1.75" y="0" drill="0.7" diameter="1.27"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.2032" layer="21">
+<vertex x="-2.65" y="2.8"/>
+<vertex x="-2.65" y="-2.8" curve="-41.039891"/>
+<vertex x="-3.85" y="0" curve="-41.675747"/>
+</polygon>
+</package>
+<package name="SANYO-OSCON_E9">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<circle x="0" y="0" radius="3.9" width="0.2032" layer="21"/>
+<pad name="-" x="-1.75" y="0" drill="0.8" diameter="1.27"/>
+<pad name="+" x="1.75" y="0" drill="0.8" diameter="1.27"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.2032" layer="21">
+<vertex x="-2.65" y="2.7"/>
+<vertex x="-2.65" y="-2.75" curve="-41.038922"/>
+<vertex x="-3.8" y="0" curve="-41.675057"/>
+</polygon>
+</package>
+<package name="SANYO-OSCON_F">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-4.5" y1="0" x2="-3.6" y2="0" width="0.4064" layer="21"/>
+<circle x="0" y="0" radius="4.9" width="0.2032" layer="21"/>
+<pad name="-" x="-2.5" y="0" drill="0.8" diameter="1.27"/>
+<pad name="+" x="2.5" y="0" drill="0.8" diameter="1.27"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SANYO-OSCON_F'">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-3.55" y1="0" x2="-4.4" y2="0" width="0.4064" layer="21"/>
+<circle x="0" y="0" radius="4.9002" width="0.2032" layer="21"/>
+<pad name="-" x="-2.5" y="0" drill="0.8" diameter="1.27"/>
+<pad name="+" x="2.5" y="0" drill="0.8" diameter="1.27"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SANYO-OSCON_F0">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-4.5" y1="0" x2="-3.6" y2="0" width="0.4064" layer="21"/>
+<circle x="0" y="0" radius="4.9" width="0.2032" layer="21"/>
+<pad name="-" x="-2.5" y="0" drill="0.8" diameter="1.27"/>
+<pad name="+" x="2.5" y="0" drill="0.8" diameter="1.27"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SANYO-OSCON_F13">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<circle x="0" y="0" radius="4.9" width="0.2032" layer="21"/>
+<pad name="-" x="-2.5" y="0" drill="0.8" diameter="1.27"/>
+<pad name="+" x="2.5" y="0" drill="0.8" diameter="1.27"/>
+<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.2032" layer="21">
+<vertex x="-3.4" y="3.45"/>
+<vertex x="-3.4" y="-3.4" curve="-41.039359"/>
+<vertex x="-4.85" y="0" curve="-41.674636"/>
+</polygon>
+</package>
+<package name="SANYO-OSCON_F8">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<circle x="0" y="0" radius="4.9" width="0.2032" layer="21"/>
+<pad name="-" x="-2.5" y="0" drill="0.7" diameter="1.27"/>
+<pad name="+" x="2.5" y="0" drill="0.7" diameter="1.27"/>
+<text x="-2.54" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.2032" layer="21">
+<vertex x="-3.6" y="3.2"/>
+<vertex x="-3.6" y="-3.25" curve="-41.039474"/>
+<vertex x="-4.85" y="0" curve="-41.675359"/>
+</polygon>
+</package>
+<package name="SANYO-OSCON_G">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-4.5" y1="0" x2="-5.7" y2="0" width="0.4064" layer="21"/>
+<circle x="0" y="0" radius="6.15" width="0.2032" layer="21"/>
+<pad name="-" x="-2.5" y="0" drill="0.8" diameter="1.27"/>
+<pad name="+" x="2.5" y="0" drill="0.8" diameter="1.27"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SANYO-OSCON_H">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt;&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-7" y1="0" x2="-5.7" y2="0" width="0.4064" layer="21"/>
+<circle x="0" y="0" radius="7.9001" width="0.2032" layer="21"/>
+<pad name="-" x="-3.75" y="0" drill="0.8" diameter="1.27"/>
+<pad name="+" x="3.75" y="0" drill="0.8" diameter="1.27"/>
+<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="SANYO-OSCON_SMD_A5">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt; SMD type with conductive polymer electrolyte&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-2.05" y1="2.05" x2="1.25" y2="2.05" width="0.2032" layer="21"/>
+<wire x1="1.25" y1="2.05" x2="2.05" y2="1.25" width="0.2032" layer="21"/>
+<wire x1="2.05" y1="1.25" x2="2.05" y2="-1.25" width="0.2032" layer="51"/>
+<wire x1="2.05" y1="-1.25" x2="1.25" y2="-2.05" width="0.2032" layer="21"/>
+<wire x1="1.25" y1="-2.05" x2="-2.05" y2="-2.05" width="0.2032" layer="21"/>
+<wire x1="-2.05" y1="-2.05" x2="-2.05" y2="2.05" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="1.85" width="0.2032" layer="51"/>
+<smd name="-" x="-1.8" y="0" dx="2.6" dy="1.6" layer="1"/>
+<smd name="+" x="1.8" y="0" dx="2.6" dy="1.6" layer="1"/>
+<text x="-1.905" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.2032" layer="51">
+<vertex x="-1.2" y="-1.35"/>
+<vertex x="-1.2" y="1.35" curve="44.759919"/>
+<vertex x="-1.8" y="0" curve="39.027281"/>
+</polygon>
+</package>
+<package name="SANYO-OSCON_SMD_B6">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt; SMD type with conductive polymer electrolyte&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-2.55" y1="2.55" x2="1.75" y2="2.55" width="0.2032" layer="21"/>
+<wire x1="1.75" y1="2.55" x2="2.55" y2="1.75" width="0.2032" layer="21"/>
+<wire x1="2.55" y1="1.75" x2="2.55" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="2.55" y1="-1.75" x2="1.75" y2="-2.55" width="0.2032" layer="21"/>
+<wire x1="1.75" y1="-2.55" x2="-2.55" y2="-2.55" width="0.2032" layer="21"/>
+<wire x1="-2.55" y1="-2.55" x2="-2.55" y2="2.55" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="2.35" width="0.2032" layer="51"/>
+<smd name="-" x="-2.2" y="0" dx="3" dy="1.6" layer="1"/>
+<smd name="+" x="2.2" y="0" dx="3" dy="1.6" layer="1"/>
+<text x="-2.794" y="4.699" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.794" y="3.175" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.2032" layer="51">
+<vertex x="-1.6" y="-1.65"/>
+<vertex x="-1.6" y="1.65" curve="35.983944"/>
+<vertex x="-2.3" y="0" curve="42.321615"/>
+</polygon>
+</package>
+<package name="SANYO-OSCON_SMD_C6">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt; SMD type with conductive polymer electrolyte&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-3.2" y1="3.2" x2="2.4" y2="3.2" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="3.2" x2="3.2" y2="2.4" width="0.2032" layer="21"/>
+<wire x1="3.2" y1="2.4" x2="3.2" y2="-2.4" width="0.2032" layer="51"/>
+<wire x1="3.2" y1="-2.4" x2="2.4" y2="-3.2" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-3.2" x2="-3.2" y2="-3.2" width="0.2032" layer="21"/>
+<wire x1="-3.2" y1="-3.2" x2="-3.2" y2="3.2" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="2.95" width="0.2032" layer="51"/>
+<smd name="-" x="-2.8" y="0" dx="3.5" dy="1.6" layer="1"/>
+<smd name="+" x="2.8" y="0" dx="3.5" dy="1.6" layer="1"/>
+<text x="-3.175" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.2032" layer="51">
+<vertex x="-2.2" y="1.9"/>
+<vertex x="-2.2" y="-1.9" curve="-39.18521"/>
+<vertex x="-2.85" y="0" curve="-36.094684"/>
+</polygon>
+</package>
+<package name="SANYO-OSCON_SMD_E12">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt; SMD type with conductive polymer electrolyte&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-4.05" y1="4.05" x2="2.95" y2="4.05" width="0.2032" layer="21"/>
+<wire x1="2.95" y1="4.05" x2="4.05" y2="2.95" width="0.2032" layer="21"/>
+<wire x1="4.05" y1="2.95" x2="4.05" y2="-2.95" width="0.2032" layer="51"/>
+<wire x1="2.95" y1="-4.05" x2="-4.05" y2="-4.05" width="0.2032" layer="21"/>
+<wire x1="-4.05" y1="-4.05" x2="-4.05" y2="4.05" width="0.2032" layer="51"/>
+<wire x1="4.05" y1="-2.95" x2="2.95" y2="-4.05" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="3.85" width="0.2032" layer="51"/>
+<smd name="-" x="-3.5" y="0" dx="4.15" dy="1.9" layer="1"/>
+<smd name="+" x="3.5" y="0" dx="4.15" dy="1.9" layer="1"/>
+<text x="-3.81" y="4.445" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-5.715" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.2032" layer="51">
+<vertex x="-2.6" y="-2.75"/>
+<vertex x="-2.6" y="2.75" curve="44.955417"/>
+<vertex x="-3.85" y="0" curve="45.23973"/>
+</polygon>
+</package>
+<package name="SANYO-OSCON_SMD_E7">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt; SMD type with conductive polymer electrolyte&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-4.05" y1="4.05" x2="2.95" y2="4.05" width="0.2032" layer="21"/>
+<wire x1="2.95" y1="4.05" x2="4.05" y2="2.95" width="0.2032" layer="21"/>
+<wire x1="4.05" y1="2.95" x2="4.05" y2="-2.95" width="0.2032" layer="51"/>
+<wire x1="2.95" y1="-4.05" x2="-4.05" y2="-4.05" width="0.2032" layer="21"/>
+<wire x1="-4.05" y1="-4.05" x2="-4.05" y2="4.05" width="0.2032" layer="51"/>
+<wire x1="4.05" y1="-2.95" x2="2.95" y2="-4.05" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="3.85" width="0.2032" layer="51"/>
+<smd name="-" x="-3.5" y="0" dx="4.15" dy="1.9" layer="1"/>
+<smd name="+" x="3.5" y="0" dx="4.15" dy="1.9" layer="1"/>
+<text x="-3.81" y="4.445" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-5.715" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.2032" layer="51">
+<vertex x="-2.7" y="2.65"/>
+<vertex x="-2.7" y="-2.65" curve="-47.290335"/>
+<vertex x="-3.8" y="0" curve="-44.001093"/>
+</polygon>
+</package>
+<package name="SANYO-OSCON_SMD_F12">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt; SMD type with conductive polymer electrolyte&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-5.05" y1="5.05" x2="3.95" y2="5.05" width="0.2032" layer="21"/>
+<wire x1="3.95" y1="5.05" x2="5.05" y2="3.95" width="0.2032" layer="21"/>
+<wire x1="5.05" y1="3.95" x2="5.05" y2="-3.95" width="0.2032" layer="51"/>
+<wire x1="3.95" y1="-5.05" x2="-5.05" y2="-5.05" width="0.2032" layer="21"/>
+<wire x1="-5.05" y1="-5.05" x2="-5.05" y2="5.05" width="0.2032" layer="51"/>
+<wire x1="5.05" y1="-3.95" x2="3.95" y2="-5.05" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="4.8" width="0.2032" layer="51"/>
+<smd name="-" x="-4.5" y="0" dx="4.7" dy="1.9" layer="1"/>
+<smd name="+" x="4.5" y="0" dx="4.7" dy="1.9" layer="1"/>
+<text x="-5.08" y="5.715" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.2032" layer="51">
+<vertex x="-3.05" y="-3.65"/>
+<vertex x="-3.05" y="3.65" curve="48.708973"/>
+<vertex x="-4.75" y="0" curve="43.982679"/>
+</polygon>
+</package>
+<package name="SANYO-OSCON_SMD_F8">
+<description>&lt;b&gt;SANYO OSCON Capacitor&lt;/b&gt; SMD type with conductive polymer electrolyte&lt;p&gt;
+Source: e_os_all.pdf</description>
+<wire x1="-5.05" y1="5.05" x2="3.95" y2="5.05" width="0.2032" layer="21"/>
+<wire x1="3.95" y1="5.05" x2="5.05" y2="3.95" width="0.2032" layer="21"/>
+<wire x1="5.05" y1="3.95" x2="5.05" y2="-3.95" width="0.2032" layer="51"/>
+<wire x1="3.95" y1="-5.05" x2="-5.05" y2="-5.05" width="0.2032" layer="21"/>
+<wire x1="-5.05" y1="-5.05" x2="-5.05" y2="5.05" width="0.2032" layer="51"/>
+<wire x1="5.05" y1="-3.95" x2="3.95" y2="-5.05" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="4.8" width="0.2032" layer="51"/>
+<smd name="-" x="-4.5" y="0" dx="4.7" dy="1.9" layer="1"/>
+<smd name="+" x="4.5" y="0" dx="4.7" dy="1.9" layer="1"/>
+<text x="-5.08" y="5.715" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.2032" layer="51">
+<vertex x="-3.05" y="-3.65"/>
+<vertex x="-3.05" y="3.65" curve="41.376652"/>
+<vertex x="-4.75" y="0" curve="43.010397"/>
+</polygon>
+</package>
+<package name="UD-10X10_NICHICON">
+<description>&lt;b&gt;ALUMINUM ELECTROLYTIC CAPACITORS&lt;/b&gt; UD Series 10 x 10 mm&lt;p&gt;
+Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
+<wire x1="-5.1" y1="5.1" x2="4.3" y2="5.1" width="0.1016" layer="51"/>
+<wire x1="4.3" y1="5.1" x2="5.1" y2="4.3" width="0.1016" layer="51"/>
+<wire x1="5.1" y1="4.3" x2="5.1" y2="-4.3" width="0.1016" layer="51"/>
+<wire x1="5.1" y1="-4.3" x2="4.3" y2="-5.1" width="0.1016" layer="51"/>
+<wire x1="4.3" y1="-5.1" x2="-5.1" y2="-5.1" width="0.1016" layer="51"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="5.1" width="0.1016" layer="51"/>
+<wire x1="-4.875" y1="0.85" x2="4.875" y2="0.85" width="0.1016" layer="21" curve="-160.259855"/>
+<wire x1="-5.1" y1="0.875" x2="-5.1" y2="5.1" width="0.1016" layer="21"/>
+<wire x1="-5.1" y1="5.1" x2="4.3" y2="5.1" width="0.1016" layer="21"/>
+<wire x1="4.3" y1="5.1" x2="5.1" y2="4.3" width="0.1016" layer="21"/>
+<wire x1="5.1" y1="-4.3" x2="4.3" y2="-5.1" width="0.1016" layer="21"/>
+<wire x1="4.3" y1="-5.1" x2="-5.1" y2="-5.1" width="0.1016" layer="21"/>
+<wire x1="-5.1" y1="-5.1" x2="-5.1" y2="-0.85" width="0.1016" layer="21"/>
+<wire x1="4.875" y1="-0.85" x2="-4.875" y2="-0.85" width="0.1016" layer="21" curve="-160.259855"/>
+<circle x="0" y="0" radius="4.95" width="0.1016" layer="51"/>
+<smd name="-" x="-3.95" y="0" dx="3.6" dy="1.3" layer="1"/>
+<smd name="+" x="3.925" y="0" dx="3.6" dy="1.3" layer="1"/>
+<text x="-5.08" y="5.715" size="1.016" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-6.35" size="1.016" layer="27">&gt;VALUE</text>
+<polygon width="0.1016" layer="51">
+<vertex x="-4.05" y="2.8" curve="69.465624"/>
+<vertex x="-4.05" y="-2.825"/>
+</polygon>
+</package>
+<package name="UD-4X5,8_NICHICON">
+<description>&lt;b&gt;ALUMINUM ELECTROLYTIC CAPACITORS&lt;/b&gt; UD Series 4 x 5.8 mm&lt;p&gt;
+Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
+<wire x1="-2.1" y1="2.1" x2="1.3" y2="2.1" width="0.1016" layer="51"/>
+<wire x1="1.3" y1="2.1" x2="2.1" y2="1.3" width="0.1016" layer="51"/>
+<wire x1="2.1" y1="1.3" x2="2.1" y2="-1.3" width="0.1016" layer="51"/>
+<wire x1="2.1" y1="-1.3" x2="1.3" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="1.3" y1="-2.1" x2="-2.1" y2="-2.1" width="0.1016" layer="51"/>
+<wire x1="-2.1" y1="-2.1" x2="-2.1" y2="2.1" width="0.1016" layer="51"/>
+<wire x1="-1.75" y1="0.875" x2="1.75" y2="0.875" width="0.1016" layer="21" curve="-126.263848"/>
+<wire x1="-2.1" y1="0.9" x2="-2.1" y2="2.1" width="0.1016" layer="21"/>
+<wire x1="-2.1" y1="2.1" x2="1.3" y2="2.1" width="0.1016" layer="21"/>
+<wire x1="1.3" y1="2.1" x2="2.1" y2="1.3" width="0.1016" layer="21"/>
+<wire x1="2.1" y1="-1.3" x2="1.3" y2="-2.1" width="0.1016" layer="21"/>
+<wire x1="1.3" y1="-2.1" x2="-2.1" y2="-2.1" width="0.1016" layer="21"/>
+<wire x1="-2.1" y1="-2.1" x2="-2.1" y2="-0.9" width="0.1016" layer="21"/>
+<wire x1="1.75" y1="-0.875" x2="-1.75" y2="-0.875" width="0.1016" layer="21" curve="-126.263848"/>
+<circle x="0" y="0" radius="1.9527" width="0.1016" layer="51"/>
+<smd name="-" x="-1.425" y="0" dx="2" dy="1" layer="1"/>
+<smd name="+" x="1.425" y="0" dx="2" dy="1" layer="1"/>
+<text x="-1.905" y="2.54" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.016" layer="27">&gt;VALUE</text>
+<polygon width="0.1016" layer="51">
+<vertex x="-1.55" y="1.175" curve="72.275472"/>
+<vertex x="-1.55" y="-1.175"/>
+</polygon>
+</package>
+<package name="UD-5X5,8_NICHICON">
+<description>&lt;b&gt;ALUMINUM ELECTROLYTIC CAPACITORS&lt;/b&gt; UD Series 5 x 5.8 mm&lt;p&gt;
+Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
+<wire x1="-2.6" y1="2.6" x2="1.8" y2="2.6" width="0.1016" layer="51"/>
+<wire x1="1.8" y1="2.6" x2="2.6" y2="1.8" width="0.1016" layer="51"/>
+<wire x1="2.6" y1="1.8" x2="2.6" y2="-1.8" width="0.1016" layer="51"/>
+<wire x1="2.6" y1="-1.8" x2="1.8" y2="-2.6" width="0.1016" layer="51"/>
+<wire x1="1.8" y1="-2.6" x2="-2.6" y2="-2.6" width="0.1016" layer="51"/>
+<wire x1="-2.6" y1="-2.6" x2="-2.6" y2="2.6" width="0.1016" layer="51"/>
+<wire x1="-2.3" y1="0.85" x2="2.275" y2="0.9" width="0.1016" layer="21" curve="-137.986421"/>
+<wire x1="-2.6" y1="0.7" x2="-2.6" y2="2.6" width="0.1016" layer="21"/>
+<wire x1="-2.6" y1="2.6" x2="1.8" y2="2.6" width="0.1016" layer="21"/>
+<wire x1="1.8" y1="2.6" x2="2.6" y2="1.8" width="0.1016" layer="21"/>
+<wire x1="2.6" y1="-1.8" x2="1.8" y2="-2.6" width="0.1016" layer="21"/>
+<wire x1="1.8" y1="-2.6" x2="-2.6" y2="-2.6" width="0.1016" layer="21"/>
+<wire x1="-2.6" y1="-2.6" x2="-2.6" y2="-0.7" width="0.1016" layer="21"/>
+<wire x1="2.3" y1="-0.85" x2="-2.275" y2="-0.9" width="0.1016" layer="21" curve="-137.986421"/>
+<circle x="0" y="0" radius="2.4501" width="0.1016" layer="51"/>
+<smd name="-" x="-1.7" y="0" dx="2.3" dy="1" layer="1"/>
+<smd name="+" x="1.725" y="0" dx="2.3" dy="1" layer="1"/>
+<text x="-2.54" y="3.175" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.016" layer="27">&gt;VALUE</text>
+<polygon width="0.1016" layer="51">
+<vertex x="-1.55" y="1.875" curve="100.118878"/>
+<vertex x="-1.55" y="-1.875"/>
+</polygon>
+</package>
+<package name="UD-6,3X5,8_NICHICON">
+<description>&lt;b&gt;ALUMINUM ELECTROLYTIC CAPACITORS&lt;/b&gt; UD Series 6.3 x 5.8 mm&lt;p&gt;
+Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
+<wire x1="-3.25" y1="3.25" x2="2.45" y2="3.25" width="0.1016" layer="51"/>
+<wire x1="2.45" y1="3.25" x2="3.25" y2="2.45" width="0.1016" layer="51"/>
+<wire x1="3.25" y1="2.45" x2="3.25" y2="-2.45" width="0.1016" layer="51"/>
+<wire x1="3.25" y1="-2.45" x2="2.45" y2="-3.25" width="0.1016" layer="51"/>
+<wire x1="2.45" y1="-3.25" x2="-3.25" y2="-3.25" width="0.1016" layer="51"/>
+<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="3.25" width="0.1016" layer="51"/>
+<wire x1="-3" y1="0.775" x2="2.975" y2="0.85" width="0.1016" layer="21" curve="-149.753145"/>
+<wire x1="-3.25" y1="0.8" x2="-3.25" y2="3.25" width="0.1016" layer="21"/>
+<wire x1="-3.25" y1="3.25" x2="2.45" y2="3.25" width="0.1016" layer="21"/>
+<wire x1="2.45" y1="3.25" x2="3.25" y2="2.45" width="0.1016" layer="21"/>
+<wire x1="3.25" y1="-2.45" x2="2.45" y2="-3.25" width="0.1016" layer="21"/>
+<wire x1="2.45" y1="-3.25" x2="-3.25" y2="-3.25" width="0.1016" layer="21"/>
+<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="-0.7" width="0.1016" layer="21"/>
+<wire x1="3" y1="-0.775" x2="-2.975" y2="-0.85" width="0.1016" layer="21" curve="-149.753145"/>
+<circle x="0" y="0" radius="3.1001" width="0.1016" layer="51"/>
+<smd name="-" x="-2.35" y="0" dx="2.8" dy="1" layer="1"/>
+<smd name="+" x="2.35" y="0" dx="2.8" dy="1" layer="1"/>
+<text x="-3.175" y="3.81" size="1.016" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-4.445" size="1.016" layer="27">&gt;VALUE</text>
+<polygon width="0.1016" layer="51">
+<vertex x="-2.2" y="2.15" curve="88.581463"/>
+<vertex x="-2.2" y="-2.15"/>
+</polygon>
+</package>
+<package name="UD-6,3X7,7_NICHICON">
+<description>&lt;b&gt;ALUMINUM ELECTROLYTIC CAPACITORS&lt;/b&gt; UD Series 6.3 x 7.7 mm&lt;p&gt;
+Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
+<wire x1="-3.25" y1="3.25" x2="2.45" y2="3.25" width="0.1016" layer="51"/>
+<wire x1="2.45" y1="3.25" x2="3.25" y2="2.45" width="0.1016" layer="51"/>
+<wire x1="3.25" y1="2.45" x2="3.25" y2="-2.45" width="0.1016" layer="51"/>
+<wire x1="3.25" y1="-2.45" x2="2.45" y2="-3.25" width="0.1016" layer="51"/>
+<wire x1="2.45" y1="-3.25" x2="-3.25" y2="-3.25" width="0.1016" layer="51"/>
+<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="3.25" width="0.1016" layer="51"/>
+<wire x1="-3" y1="0.775" x2="2.975" y2="0.85" width="0.1016" layer="21" curve="-149.753145"/>
+<wire x1="-3.25" y1="0.8" x2="-3.25" y2="3.25" width="0.1016" layer="21"/>
+<wire x1="-3.25" y1="3.25" x2="2.45" y2="3.25" width="0.1016" layer="21"/>
+<wire x1="2.45" y1="3.25" x2="3.25" y2="2.45" width="0.1016" layer="21"/>
+<wire x1="3.25" y1="-2.45" x2="2.45" y2="-3.25" width="0.1016" layer="21"/>
+<wire x1="2.45" y1="-3.25" x2="-3.25" y2="-3.25" width="0.1016" layer="21"/>
+<wire x1="-3.25" y1="-3.25" x2="-3.25" y2="-0.7" width="0.1016" layer="21"/>
+<wire x1="3" y1="-0.775" x2="-2.975" y2="-0.85" width="0.1016" layer="21" curve="-149.753145"/>
+<circle x="0" y="0" radius="3.1001" width="0.1016" layer="51"/>
+<smd name="-" x="-2.35" y="0" dx="2.8" dy="1" layer="1"/>
+<smd name="+" x="2.35" y="0" dx="2.8" dy="1" layer="1"/>
+<text x="-3.175" y="3.81" size="1.016" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-4.445" size="1.016" layer="27">&gt;VALUE</text>
+<polygon width="0.1016" layer="51">
+<vertex x="-2.2" y="2.15" curve="88.581463"/>
+<vertex x="-2.2" y="-2.15"/>
+</polygon>
+</package>
+<package name="UD-8X10_NICHICON">
+<description>&lt;b&gt;ALUMINUM ELECTROLYTIC CAPACITORS&lt;/b&gt; UD Series 8 x 10 mm&lt;p&gt;
+Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
+<wire x1="-4.1" y1="4.1" x2="3.3" y2="4.1" width="0.1016" layer="51"/>
+<wire x1="3.3" y1="4.1" x2="4.1" y2="3.3" width="0.1016" layer="51"/>
+<wire x1="4.1" y1="3.3" x2="4.1" y2="-3.3" width="0.1016" layer="51"/>
+<wire x1="4.1" y1="-3.3" x2="3.3" y2="-4.1" width="0.1016" layer="51"/>
+<wire x1="3.3" y1="-4.1" x2="-4.1" y2="-4.1" width="0.1016" layer="51"/>
+<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="4.1" width="0.1016" layer="51"/>
+<wire x1="-3.85" y1="0.875" x2="3.85" y2="0.875" width="0.1016" layer="21" curve="-154.459402"/>
+<wire x1="-4.1" y1="0.825" x2="-4.1" y2="4.1" width="0.1016" layer="21"/>
+<wire x1="-4.1" y1="4.1" x2="3.3" y2="4.1" width="0.1016" layer="21"/>
+<wire x1="3.3" y1="4.1" x2="4.1" y2="3.3" width="0.1016" layer="21"/>
+<wire x1="4.1" y1="-3.3" x2="3.3" y2="-4.1" width="0.1016" layer="21"/>
+<wire x1="3.3" y1="-4.1" x2="-4.1" y2="-4.1" width="0.1016" layer="21"/>
+<wire x1="-4.1" y1="-4.1" x2="-4.1" y2="-0.85" width="0.1016" layer="21"/>
+<wire x1="3.85" y1="-0.875" x2="-3.85" y2="-0.875" width="0.1016" layer="21" curve="-154.459402"/>
+<circle x="0" y="0" radius="3.95" width="0.1016" layer="51"/>
+<smd name="-" x="-3.125" y="0" dx="3.3" dy="1.3" layer="1"/>
+<smd name="+" x="3.125" y="0" dx="3.3" dy="1.3" layer="1"/>
+<text x="-3.81" y="4.445" size="1.016" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-5.715" size="1.016" layer="27">&gt;VALUE</text>
+<polygon width="0.1016" layer="51">
+<vertex x="-3.05" y="2.475" curve="77.887741"/>
+<vertex x="-3.05" y="-2.475"/>
+</polygon>
+</package>
+<package name="SANYO-OSCON_SMD_H">
+<wire x1="-6.32" y1="6.32" x2="3.95" y2="6.32" width="0.2032" layer="51"/>
+<wire x1="3.95" y1="6.32" x2="6.32" y2="3.95" width="0.2032" layer="51"/>
+<wire x1="6.32" y1="3.95" x2="6.32" y2="-3.95" width="0.2032" layer="51"/>
+<wire x1="3.95" y1="-6.32" x2="-6.32" y2="-6.32" width="0.2032" layer="51"/>
+<wire x1="-6.32" y1="-6.32" x2="-6.32" y2="6.32" width="0.2032" layer="51"/>
+<wire x1="6.32" y1="-3.95" x2="3.95" y2="-6.32" width="0.2032" layer="51"/>
+<circle x="0" y="0" radius="6.25" width="0.2032" layer="51"/>
+<smd name="-" x="-4.85" y="0" dx="5.7" dy="2" layer="1"/>
+<smd name="+" x="4.85" y="0" dx="5.7" dy="2" layer="1"/>
+<text x="-6.35" y="8.89" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.35" y="6.985" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.2032" layer="51">
+<vertex x="-3.05" y="-5.4"/>
+<vertex x="-3.05" y="5.4" curve="60"/>
+<vertex x="-6.3" y="0" curve="60"/>
+</polygon>
+</package>
+<package name="CHEMICON_F55">
+<smd name="+" x="-2.7" y="0" dx="3.5" dy="1.6" layer="1"/>
+<smd name="-" x="2.7" y="0" dx="3.5" dy="1.6" layer="1"/>
+<wire x1="-1.778" y1="3.3" x2="3.3" y2="3.3" width="0.127" layer="51"/>
+<wire x1="3.3" y1="3.3" x2="3.3" y2="-3.3" width="0.127" layer="51"/>
+<wire x1="3.3" y1="-3.3" x2="-1.778" y2="-3.3" width="0.127" layer="51"/>
+<wire x1="-3.302" y1="-1.778" x2="-1.778" y2="-3.302" width="0.127" layer="51"/>
+<wire x1="-3.302" y1="1.778" x2="-1.778" y2="3.302" width="0.127" layer="51"/>
+<wire x1="-3.302" y1="1.778" x2="-3.302" y2="-1.778" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="3.15" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="1.25" y="2.9"/>
+<vertex x="1.25" y="-2.9" curve="65"/>
+<vertex x="3.15" y="0" curve="65"/>
+</polygon>
+<wire x1="-4.826" y1="3.556" x2="-4.826" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="-4.826" y1="-3.556" x2="4.826" y2="-3.556" width="0.127" layer="21"/>
+<wire x1="4.826" y1="-3.556" x2="4.826" y2="3.556" width="0.127" layer="21"/>
+<wire x1="4.826" y1="3.556" x2="-4.826" y2="3.556" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="-4.826" y="3.556"/>
+<vertex x="-3.302" y="3.556"/>
+<vertex x="-3.302" y="-3.556"/>
+<vertex x="-4.826" y="-3.556"/>
+</polygon>
+<text x="-4.826" y="4.064" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-4.826" y="5.588" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="RADIAL-D8-P3.5-PD0.5">
+<pad name="-" x="-1.75" y="0" drill="0.8"/>
+<pad name="+" x="1.75" y="0" drill="0.8"/>
+<circle x="0" y="0" radius="4" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="-4" y="0" curve="-90"/>
+<vertex x="0" y="4"/>
+<vertex x="0" y="-4" curve="-90"/>
+</polygon>
+<text x="4.699" y="-0.508" size="1.27" layer="21">+</text>
+<text x="-3.81" y="5.08" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3.81" y="6.985" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="C">
@@ -606,6 +1490,18 @@
 <text x="-3.81" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="6.35" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-6.35" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="C-POLARIZED">
+<wire x1="-1.524" y1="-0.889" x2="1.524" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-0.889" x2="1.524" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="0" x2="-1.524" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="0" x2="1.524" y2="0" width="0.254" layer="94"/>
+<text x="2.413" y="-0.7874" size="1.778" layer="95">&gt;NAME</text>
+<text x="-0.5842" y="0.4064" size="1.27" layer="94" rot="R90">+</text>
+<text x="2.413" y="-3.3274" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-2.54" x2="1.651" y2="-1.651" layer="94"/>
+<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -809,6 +1705,437 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="CAPACITOR-POLARIZED" prefix="C" uservalue="yes">
+<description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, European symbol</description>
+<gates>
+<gate name="G$1" symbol="C-POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="A" package="PANASONIC_A">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B" package="PANASONIC_B">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C" package="PANASONIC_C">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="D" package="PANASONIC_D">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="E" package="PANASONIC_E">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="F" package="PANASONIC_F">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="G" package="PANASONIC_G">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_9E" package="SANYO-OSCON_9E">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_9F" package="SANYO-OSCON_9F">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_A" package="SANYO-OSCON_A">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_A'" package="SANYO-OSCON_A'">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_B" package="SANYO-OSCON_B">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_B'" package="SANYO-OSCON_B'">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_C" package="SANYO-OSCON_C">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_C'" package="SANYO-OSCON_C'">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_C6" package="SANYO-OSCON_C6">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_D" package="SANYO-OSCON_D">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_E" package="SANYO-OSCON_E">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_E'" package="SANYO-OSCON_E'">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_E1" package="SANYO-OSCON_E1">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_E12" package="SANYO-OSCON_E12">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_E13" package="SANYO-OSCON_E13">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_E7" package="SANYO-OSCON_E7">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_E9" package="SANYO-OSCON_E9">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_F" package="SANYO-OSCON_F">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_F'" package="SANYO-OSCON_F'">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_F0" package="SANYO-OSCON_F0">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_F13" package="SANYO-OSCON_F13">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_F8" package="SANYO-OSCON_F8">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_G" package="SANYO-OSCON_G">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_H" package="SANYO-OSCON_H">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_SMD_A5" package="SANYO-OSCON_SMD_A5">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_SMD_B6" package="SANYO-OSCON_SMD_B6">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_SMD_C6" package="SANYO-OSCON_SMD_C6">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_SMD_E12" package="SANYO-OSCON_SMD_E12">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_SMD_E7" package="SANYO-OSCON_SMD_E7">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_SMD_F12" package="SANYO-OSCON_SMD_F12">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_SMD_F8" package="SANYO-OSCON_SMD_F8">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="UD-10X10" package="UD-10X10_NICHICON">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="UD-4X5,8" package="UD-4X5,8_NICHICON">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="UD-5X5,8" package="UD-5X5,8_NICHICON">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="UD-6,3X8,8" package="UD-6,3X5,8_NICHICON">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="UD-6,3X7,7" package="UD-6,3X7,7_NICHICON">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="UD-8X10" package="UD-8X10_NICHICON">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SANYO_SMD_H" package="SANYO-OSCON_SMD_H">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CHEMICON_F55" package="CHEMICON_F55">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-RADIAL-D8-P3.5-PD0.5" package="RADIAL-D8-P3.5-PD0.5">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="atmel">
@@ -855,6 +2182,26 @@
 <vertex x="-1.778" y="1.27" curve="90"/>
 <vertex x="-1.27" y="1.778" curve="90"/>
 </polygon>
+</package>
+<package name="PDIP-8">
+<pad name="P$1" x="-3.81" y="-3.81" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$2" x="-1.27" y="-3.81" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$3" x="1.27" y="-3.81" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$4" x="3.81" y="-3.81" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$5" x="3.81" y="3.81" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$6" x="1.27" y="3.81" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$7" x="-1.27" y="3.81" drill="0.8" shape="long" rot="R90"/>
+<pad name="P$8" x="-3.81" y="3.81" drill="0.8" shape="long" rot="R90"/>
+<wire x1="-4.445" y1="0.9525" x2="-3.4925" y2="0.9525" width="0.254" layer="21"/>
+<wire x1="-3.4925" y1="0.9525" x2="-2.54" y2="0" width="0.254" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="0" x2="-3.4925" y2="-0.9525" width="0.254" layer="21" curve="-90"/>
+<wire x1="-3.4925" y1="-0.9525" x2="-4.445" y2="-0.9525" width="0.254" layer="21"/>
+<wire x1="-4.445" y1="2.2225" x2="-4.445" y2="0.9525" width="0.254" layer="21"/>
+<wire x1="-4.445" y1="0.9525" x2="-4.445" y2="-0.9525" width="0.254" layer="21"/>
+<wire x1="-4.445" y1="-0.9525" x2="-4.445" y2="-2.2225" width="0.254" layer="21"/>
+<wire x1="4.445" y1="2.2225" x2="4.445" y2="-2.2225" width="0.254" layer="21"/>
+<text x="-4.445" y="6.35" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-4.445" y="8.255" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -922,6 +2269,21 @@
 <connect gate="G$1" pin="PB4" pad="3"/>
 <connect gate="G$1" pin="PB5" pad="1"/>
 <connect gate="G$1" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="85-20PU" package="PDIP-8">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$4"/>
+<connect gate="G$1" pin="PB0" pad="P$5"/>
+<connect gate="G$1" pin="PB1" pad="P$6"/>
+<connect gate="G$1" pin="PB2" pad="P$7"/>
+<connect gate="G$1" pin="PB3" pad="P$2"/>
+<connect gate="G$1" pin="PB4" pad="P$3"/>
+<connect gate="G$1" pin="PB5" pad="P$1"/>
+<connect gate="G$1" pin="VCC" pad="P$8"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1104,7 +2466,7 @@
 <library name="cui">
 <packages>
 <package name="MJ-3536N">
-<pad name="P$1" x="-8.1" y="0" drill="3"/>
+<pad name="P$1" x="-5.6" y="0" drill="3"/>
 <pad name="P$2" x="5.6" y="0" drill="3"/>
 <pad name="P$3" x="3.1" y="-5.2" drill="3"/>
 <wire x1="-10.4" y1="5" x2="8.89" y2="5" width="0.127" layer="51"/>
@@ -1534,19 +2896,27 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 </classes>
 <parts>
 <part name="SHEET1" library="frames" deviceset="A4L-NODOC" device=""/>
-<part name="U1" library="texas-instruments" deviceset="TPS709" device="">
+<part name="U1" library="texas-instruments" deviceset="TPS709" device="" value="TPS70950">
 <attribute name="PN" value="TPS70950DBVR"/>
 </part>
-<part name="C1" library="passives" deviceset="CAPACITOR" device="-0603" value="1uF"/>
-<part name="C2" library="passives" deviceset="CAPACITOR" device="-0603" value="1uF"/>
-<part name="C3" library="passives" deviceset="CAPACITOR" device="-0805" value="10uF"/>
-<part name="U2" library="atmel" deviceset="ATTINY" device="85-20SU">
+<part name="C1" library="passives" deviceset="CAPACITOR" device="-0603" value="1uF">
+<attribute name="PN" value="GRM188R61E105KA12D"/>
+</part>
+<part name="C2" library="passives" deviceset="CAPACITOR" device="-0603" value="1uF">
+<attribute name="PN" value="GRM188R61E105KA12D"/>
+</part>
+<part name="C3" library="passives" deviceset="CAPACITOR" device="-0805" value="10uF">
+<attribute name="PN" value="GRM21BR61A106KE19L"/>
+</part>
+<part name="U2" library="atmel" deviceset="ATTINY" device="85-20PU" value="ATTINY85-20PU">
 <attribute name="PN" value="ATtiny85-20SU"/>
 </part>
 <part name="U3" library="on-semiconductor" deviceset="SZNUD3124" device="">
 <attribute name="PN" value="SZNUD3124DMT1G"/>
 </part>
-<part name="C4" library="passives" deviceset="CAPACITOR" device="-0402" value="0.1uF"/>
+<part name="C4" library="passives" deviceset="CAPACITOR" device="-0402" value="0.1uF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
 <part name="AGND1" library="supplies" deviceset="AGND" device=""/>
 <part name="AGND2" library="supplies" deviceset="AGND" device=""/>
 <part name="AGND3" library="supplies" deviceset="AGND" device=""/>
@@ -1556,10 +2926,18 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <part name="AGND7" library="supplies" deviceset="AGND" device=""/>
 <part name="AGND8" library="supplies" deviceset="AGND" device=""/>
 <part name="P+1" library="supplies" deviceset="+12V" device=""/>
-<part name="R1" library="passives" deviceset="RESISTOR" device="-0402" value="100K"/>
-<part name="R2" library="passives" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="10K"/>
-<part name="C5" library="passives" deviceset="CAPACITOR" device="-0402" value="0.1uF"/>
-<part name="C6" library="passives" deviceset="CAPACITOR" device="-0402" value="0.1uF"/>
+<part name="R1" library="passives" deviceset="RESISTOR" device="-0402" value="100K">
+<attribute name="PN" value="RC0402FR-07100KL"/>
+</part>
+<part name="R2" library="passives" deviceset="RESISTOR-HORIZONTAL" device="-0402" value="10K">
+<attribute name="PN" value="RC0402FR-0710KL"/>
+</part>
+<part name="C5" library="passives" deviceset="CAPACITOR" device="-0402" value="0.1uF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
+<part name="C6" library="passives" deviceset="CAPACITOR" device="-0402" value="0.1uF">
+<attribute name="PN" value="GRM155R71H104KE14D"/>
+</part>
 <part name="AGND9" library="supplies" deviceset="AGND" device=""/>
 <part name="AGND10" library="supplies" deviceset="AGND" device=""/>
 <part name="P+2" library="supplies" deviceset="+5V" device=""/>
@@ -1610,6 +2988,12 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <part name="U4" library="texas-instruments" deviceset="SN74AHC1G14" device="DCK">
 <attribute name="PN" value="SN74AHC1G14DCKR"/>
 </part>
+<part name="C7" library="passives" deviceset="CAPACITOR-POLARIZED" device="-RADIAL-D8-P3.5-PD0.5" value="470uF">
+<attribute name="PN" value="860020474014"/>
+</part>
+<part name="C8" library="passives" deviceset="CAPACITOR-POLARIZED" device="-RADIAL-D8-P3.5-PD0.5" value="470uF"/>
+<part name="P+6" library="supplies" deviceset="+12V" device=""/>
+<part name="AGND15" library="supplies" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1620,9 +3004,15 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <instance part="U1" gate="G$1" x="100.33" y="139.7">
 <attribute name="PN" x="100.33" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C1" gate="G$1" x="77.47" y="137.16"/>
-<instance part="C2" gate="G$1" x="114.3" y="137.16"/>
-<instance part="C3" gate="G$1" x="125.73" y="137.16"/>
+<instance part="C1" gate="G$1" x="77.47" y="137.16">
+<attribute name="PN" x="77.47" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C2" gate="G$1" x="114.3" y="137.16">
+<attribute name="PN" x="114.3" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C3" gate="G$1" x="125.73" y="137.16">
+<attribute name="PN" x="125.73" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U2" gate="G$1" x="172.72" y="138.43">
 <attribute name="PN" x="172.72" y="138.43" size="1.778" layer="96" display="off"/>
 </instance>
@@ -1630,7 +3020,9 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <attribute name="PN" x="200.66" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U3" gate="B" x="200.66" y="115.57"/>
-<instance part="C4" gate="G$1" x="138.43" y="137.16"/>
+<instance part="C4" gate="G$1" x="138.43" y="137.16">
+<attribute name="PN" x="138.43" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="AGND1" gate="VR1" x="87.63" y="124.46"/>
 <instance part="AGND2" gate="VR1" x="77.47" y="124.46"/>
 <instance part="AGND3" gate="VR1" x="114.3" y="124.46"/>
@@ -1639,25 +3031,33 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <instance part="AGND6" gate="VR1" x="138.43" y="124.46"/>
 <instance part="AGND7" gate="VR1" x="200.66" y="129.54"/>
 <instance part="AGND8" gate="VR1" x="200.66" y="105.41"/>
-<instance part="P+1" gate="1" x="25.4" y="152.4"/>
-<instance part="R1" gate="G$1" x="76.2" y="86.36"/>
-<instance part="R2" gate="G$1" x="85.09" y="77.47"/>
-<instance part="C5" gate="G$1" x="93.98" y="71.12"/>
-<instance part="C6" gate="G$1" x="203.2" y="78.74"/>
-<instance part="AGND9" gate="VR1" x="93.98" y="59.69"/>
-<instance part="AGND10" gate="VR1" x="217.17" y="63.5"/>
-<instance part="P+2" gate="1" x="138.43" y="153.67"/>
-<instance part="P+3" gate="1" x="217.17" y="92.71"/>
-<instance part="P+4" gate="1" x="76.2" y="97.79"/>
-<instance part="J1" gate="G$1" x="41.91" y="29.21">
-<attribute name="PN" x="41.91" y="29.21" size="1.778" layer="96" display="off"/>
+<instance part="P+1" gate="1" x="25.4" y="154.94"/>
+<instance part="R1" gate="G$1" x="96.52" y="88.9">
+<attribute name="PN" x="96.52" y="88.9" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="AGND11" gate="VR1" x="54.61" y="17.78"/>
-<instance part="AGND12" gate="VR1" x="182.88" y="19.05"/>
-<instance part="P+5" gate="1" x="182.88" y="49.53"/>
-<instance part="J2" gate="G$1" x="193.04" y="33.02">
-<attribute name="MATES" x="193.04" y="33.02" size="1.778" layer="96" display="off"/>
-<attribute name="PN" x="193.04" y="33.02" size="1.778" layer="96" display="off"/>
+<instance part="R2" gate="G$1" x="105.41" y="80.01">
+<attribute name="PN" x="105.41" y="80.01" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C5" gate="G$1" x="114.3" y="73.66">
+<attribute name="PN" x="114.3" y="73.66" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C6" gate="G$1" x="203.2" y="78.74">
+<attribute name="PN" x="203.2" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="AGND9" gate="VR1" x="114.3" y="62.23"/>
+<instance part="AGND10" gate="VR1" x="217.17" y="63.5"/>
+<instance part="P+2" gate="1" x="138.43" y="154.94"/>
+<instance part="P+3" gate="1" x="217.17" y="92.71"/>
+<instance part="P+4" gate="1" x="96.52" y="100.33"/>
+<instance part="J1" gate="G$1" x="36.83" y="33.02">
+<attribute name="PN" x="36.83" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="AGND11" gate="VR1" x="49.53" y="21.59"/>
+<instance part="AGND12" gate="VR1" x="132.08" y="19.05"/>
+<instance part="P+5" gate="1" x="132.08" y="49.53"/>
+<instance part="J2" gate="G$1" x="142.24" y="33.02">
+<attribute name="MATES" x="142.24" y="33.02" size="1.778" layer="96" display="off"/>
+<attribute name="PN" x="142.24" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D1" gate="G$1" x="58.42" y="142.24">
 <attribute name="PN" x="58.42" y="142.24" size="1.778" layer="96" display="off"/>
@@ -1665,36 +3065,42 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <instance part="F1" gate="G$1" x="35.56" y="142.24">
 <attribute name="PN" x="35.56" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$1" gate="G$1" x="114.3" y="26.67">
-<attribute name="BOM" x="114.3" y="26.67" size="1.778" layer="96" display="off"/>
+<instance part="U$1" gate="G$1" x="189.23" y="26.67">
+<attribute name="BOM" x="189.23" y="26.67" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="AGND13" gate="VR1" x="106.68" y="20.32"/>
-<instance part="U$2" gate="G$1" x="114.3" y="31.75">
-<attribute name="BOM" x="114.3" y="31.75" size="1.778" layer="96" display="off"/>
+<instance part="AGND13" gate="VR1" x="181.61" y="19.05"/>
+<instance part="U$2" gate="G$1" x="189.23" y="31.75">
+<attribute name="BOM" x="189.23" y="31.75" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$3" gate="G$1" x="114.3" y="36.83">
-<attribute name="BOM" x="114.3" y="36.83" size="1.778" layer="96" display="off"/>
+<instance part="U$3" gate="G$1" x="189.23" y="36.83">
+<attribute name="BOM" x="189.23" y="36.83" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$4" gate="G$1" x="114.3" y="41.91">
-<attribute name="BOM" x="114.3" y="41.91" size="1.778" layer="96" display="off"/>
+<instance part="U$4" gate="G$1" x="189.23" y="41.91">
+<attribute name="BOM" x="189.23" y="41.91" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$5" gate="G$1" x="129.54" y="41.91">
-<attribute name="BOM" x="129.54" y="41.91" size="1.778" layer="96" display="off"/>
+<instance part="U$5" gate="G$1" x="224.79" y="41.91">
+<attribute name="BOM" x="224.79" y="41.91" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$6" gate="G$1" x="129.54" y="36.83">
-<attribute name="BOM" x="129.54" y="36.83" size="1.778" layer="96" display="off"/>
+<instance part="U$6" gate="G$1" x="224.79" y="36.83">
+<attribute name="BOM" x="224.79" y="36.83" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$7" gate="G$1" x="129.54" y="31.75">
-<attribute name="BOM" x="129.54" y="31.75" size="1.778" layer="96" display="off"/>
+<instance part="U$7" gate="G$1" x="224.79" y="31.75">
+<attribute name="BOM" x="224.79" y="31.75" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="D2" gate="G$1" x="48.26" y="134.62">
 <attribute name="PN" x="48.26" y="134.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="AGND14" gate="VR1" x="48.26" y="124.46"/>
-<instance part="U4" gate="A" x="109.22" y="77.47">
-<attribute name="PN" x="109.22" y="77.47" size="1.778" layer="96" display="off"/>
+<instance part="U4" gate="A" x="129.54" y="80.01">
+<attribute name="PN" x="129.54" y="80.01" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U4" gate="PWR" x="217.17" y="77.47"/>
+<instance part="C7" gate="G$1" x="25.4" y="81.28">
+<attribute name="PN" x="25.4" y="81.28" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C8" gate="G$1" x="38.1" y="81.28"/>
+<instance part="P+6" gate="1" x="31.75" y="95.25"/>
+<instance part="AGND15" gate="VR1" x="31.75" y="64.77"/>
 </instances>
 <busses>
 </busses>
@@ -1755,42 +3161,53 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <segment>
 <pinref part="AGND9" gate="VR1" pin="AGND"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="62.23" x2="93.98" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="64.77" x2="114.3" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="P$3"/>
 <pinref part="AGND11" gate="VR1" pin="AGND"/>
-<wire x1="48.26" y1="26.67" x2="54.61" y2="26.67" width="0.1524" layer="91"/>
-<wire x1="54.61" y1="26.67" x2="54.61" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="30.48" x2="49.53" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="49.53" y1="30.48" x2="49.53" y2="24.13" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AGND12" gate="VR1" pin="AGND"/>
-<wire x1="182.88" y1="27.94" x2="182.88" y2="21.59" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="27.94" x2="132.08" y2="21.59" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="6"/>
-<wire x1="193.04" y1="27.94" x2="182.88" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="27.94" x2="132.08" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <pinref part="AGND13" gate="VR1" pin="AGND"/>
-<wire x1="110.49" y1="26.67" x2="106.68" y2="26.67" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="26.67" x2="106.68" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="26.67" x2="181.61" y2="26.67" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="26.67" x2="181.61" y2="21.59" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="GND"/>
-<wire x1="110.49" y1="41.91" x2="106.68" y2="41.91" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="41.91" x2="106.68" y2="36.83" width="0.1524" layer="91"/>
-<junction x="106.68" y="26.67"/>
+<wire x1="185.42" y1="41.91" x2="181.61" y2="41.91" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="41.91" x2="181.61" y2="36.83" width="0.1524" layer="91"/>
+<junction x="181.61" y="26.67"/>
 <pinref part="U$2" gate="G$1" pin="GND"/>
-<wire x1="106.68" y1="36.83" x2="106.68" y2="31.75" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="31.75" x2="106.68" y2="26.67" width="0.1524" layer="91"/>
-<wire x1="110.49" y1="31.75" x2="106.68" y2="31.75" width="0.1524" layer="91"/>
-<junction x="106.68" y="31.75"/>
+<wire x1="181.61" y1="36.83" x2="181.61" y2="31.75" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="31.75" x2="181.61" y2="26.67" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="31.75" x2="181.61" y2="31.75" width="0.1524" layer="91"/>
+<junction x="181.61" y="31.75"/>
 <pinref part="U$3" gate="G$1" pin="GND"/>
-<wire x1="110.49" y1="36.83" x2="106.68" y2="36.83" width="0.1524" layer="91"/>
-<junction x="106.68" y="36.83"/>
+<wire x1="185.42" y1="36.83" x2="181.61" y2="36.83" width="0.1524" layer="91"/>
+<junction x="181.61" y="36.83"/>
 </segment>
 <segment>
 <pinref part="AGND14" gate="VR1" pin="AGND"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="48.26" y1="127" x2="48.26" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="AGND15" gate="VR1" pin="AGND"/>
+<wire x1="31.75" y1="67.31" x2="31.75" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="-"/>
+<wire x1="31.75" y1="71.12" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="71.12" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="-"/>
+<wire x1="25.4" y1="76.2" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="71.12" x2="31.75" y2="71.12" width="0.1524" layer="91"/>
+<junction x="31.75" y="71.12"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -1810,9 +3227,9 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <label x="209.55" y="123.19" size="2.54" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="177.8" y="33.02" size="2.54" layer="95" rot="R180" xref="yes"/>
+<label x="127" y="33.02" size="2.54" layer="95" rot="R180" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="193.04" y1="33.02" x2="177.8" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="33.02" x2="127" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VAC_CONTROL" class="0">
@@ -1823,31 +3240,42 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <label x="209.55" y="147.32" size="2.54" layer="95" xref="yes"/>
 </segment>
 <segment>
-<label x="177.8" y="38.1" size="2.54" layer="95" rot="R180" xref="yes"/>
+<label x="127" y="38.1" size="2.54" layer="95" rot="R180" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="193.04" y1="38.1" x2="177.8" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="38.1" x2="127" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
 <segment>
 <pinref part="P+5" gate="1" pin="+12V"/>
-<wire x1="193.04" y1="40.64" x2="182.88" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="40.64" x2="182.88" y2="46.99" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="35.56" x2="182.88" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="35.56" x2="182.88" y2="40.64" width="0.1524" layer="91"/>
-<junction x="182.88" y="40.64"/>
-<wire x1="193.04" y1="30.48" x2="182.88" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="30.48" x2="182.88" y2="35.56" width="0.1524" layer="91"/>
-<junction x="182.88" y="35.56"/>
+<wire x1="142.24" y1="40.64" x2="132.08" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="40.64" x2="132.08" y2="46.99" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="35.56" x2="132.08" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="35.56" x2="132.08" y2="40.64" width="0.1524" layer="91"/>
+<junction x="132.08" y="40.64"/>
+<wire x1="142.24" y1="30.48" x2="132.08" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="30.48" x2="132.08" y2="35.56" width="0.1524" layer="91"/>
+<junction x="132.08" y="35.56"/>
 <pinref part="J2" gate="G$1" pin="1"/>
 <pinref part="J2" gate="G$1" pin="3"/>
 <pinref part="J2" gate="G$1" pin="5"/>
 </segment>
 <segment>
-<wire x1="25.4" y1="142.24" x2="25.4" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="142.24" x2="25.4" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+12V"/>
 <pinref part="F1" gate="G$1" pin="1"/>
 <wire x1="29.21" y1="142.24" x2="25.4" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="+"/>
+<wire x1="25.4" y1="83.82" x2="25.4" y2="87.63" width="0.1524" layer="91"/>
+<pinref part="P+6" gate="1" pin="+12V"/>
+<wire x1="25.4" y1="87.63" x2="31.75" y2="87.63" width="0.1524" layer="91"/>
+<wire x1="31.75" y1="87.63" x2="31.75" y2="92.71" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="+"/>
+<wire x1="31.75" y1="87.63" x2="38.1" y2="87.63" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="87.63" x2="38.1" y2="83.82" width="0.1524" layer="91"/>
+<junction x="31.75" y="87.63"/>
 </segment>
 </net>
 <net name="PEDAL_DEBOUNCED" class="0">
@@ -1859,8 +3287,8 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <label x="199.39" y="156.21" size="2.54" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="118.11" y1="77.47" x2="146.05" y2="77.47" width="0.1524" layer="91"/>
-<label x="146.05" y="77.47" size="2.54" layer="95" xref="yes"/>
+<wire x1="138.43" y1="80.01" x2="147.32" y2="80.01" width="0.1524" layer="91"/>
+<label x="147.32" y="80.01" size="2.54" layer="95" xref="yes"/>
 <pinref part="U4" gate="A" pin="Y"/>
 </segment>
 </net>
@@ -1882,7 +3310,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <wire x1="138.43" y1="139.7" x2="138.43" y2="142.24" width="0.1524" layer="91"/>
 <junction x="138.43" y="142.24"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
-<wire x1="138.43" y1="151.13" x2="138.43" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="138.43" y1="152.4" x2="138.43" y2="142.24" width="0.1524" layer="91"/>
 <junction x="138.43" y="142.24"/>
 </segment>
 <segment>
@@ -1898,34 +3326,34 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
-<wire x1="76.2" y1="91.44" x2="76.2" y2="95.25" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="93.98" x2="96.52" y2="97.79" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="90.17" y1="77.47" x2="93.98" y2="77.47" width="0.1524" layer="91"/>
+<wire x1="110.49" y1="80.01" x2="114.3" y2="80.01" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="77.47" x2="104.14" y2="77.47" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="73.66" x2="93.98" y2="77.47" width="0.1524" layer="91"/>
-<junction x="93.98" y="77.47"/>
+<wire x1="114.3" y1="80.01" x2="124.46" y2="80.01" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="76.2" x2="114.3" y2="80.01" width="0.1524" layer="91"/>
+<junction x="114.3" y="80.01"/>
 <pinref part="U4" gate="A" pin="A"/>
 </segment>
 </net>
-<net name="PEDAL_INPUT" class="0">
+<net name="PEDAL_IN" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="80.01" y1="77.47" x2="76.2" y2="77.47" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="77.47" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="77.47" x2="60.96" y2="77.47" width="0.1524" layer="91"/>
-<junction x="76.2" y="77.47"/>
-<label x="60.96" y="77.47" size="2.54" layer="95" rot="R180" xref="yes"/>
+<wire x1="100.33" y1="80.01" x2="96.52" y2="80.01" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="80.01" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="80.01" x2="88.9" y2="80.01" width="0.1524" layer="91"/>
+<junction x="96.52" y="80.01"/>
+<label x="88.9" y="80.01" size="2.54" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="P$1"/>
-<wire x1="48.26" y1="34.29" x2="58.42" y2="34.29" width="0.1524" layer="91"/>
-<label x="58.42" y="34.29" size="2.54" layer="95" xref="yes"/>
+<wire x1="43.18" y1="38.1" x2="48.26" y2="38.1" width="0.1524" layer="91"/>
+<label x="48.26" y="38.1" size="2.54" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
