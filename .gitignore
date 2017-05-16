@@ -93,3 +93,19 @@ eagle.epf
 # file locks introduced since 7.x
 *.lck
 
+# AVR / simavr ignores.
+obj-*
+*.axf
+*.hex
+*.s
+*.a
+.tags*
+._*
+*.vcd
+callgrind.out.*
+*~
+*.o
+*.elf
+*.objdump
+perf.data
+.make.options*
