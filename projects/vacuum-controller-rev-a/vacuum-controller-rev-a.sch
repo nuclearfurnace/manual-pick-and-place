@@ -2599,14 +2599,14 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <wire x1="0.85" y1="0.625" x2="0.85" y2="-0.625" width="0.1" layer="51"/>
 <wire x1="0.85" y1="-0.625" x2="-0.85" y2="-0.625" width="0.1" layer="51"/>
 <wire x1="-0.85" y1="-0.625" x2="-0.85" y2="0.625" width="0.1" layer="51"/>
-<wire x1="-0.5" y1="0" x2="0.1" y2="0.4" width="0.1" layer="51"/>
-<wire x1="0.1" y1="0.4" x2="0.1" y2="-0.4" width="0.1" layer="51"/>
-<wire x1="0.1" y1="-0.4" x2="-0.5" y2="0" width="0.1" layer="51"/>
+<wire x1="-0.5" y1="0" x2="0.1" y2="0.4" width="0.1" layer="21"/>
+<wire x1="0.1" y1="0.4" x2="0.1" y2="-0.4" width="0.1" layer="21"/>
+<wire x1="0.1" y1="-0.4" x2="-0.5" y2="0" width="0.1" layer="21"/>
 <smd name="C" x="-1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
 <smd name="A" x="1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
 <text x="-1.862" y="2.778" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.862" y="1.256" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.65" y1="-0.6" x2="-0.55" y2="0.6" layer="51"/>
+<rectangle x1="-0.65" y1="-0.6" x2="-0.55" y2="0.6" layer="21"/>
 <wire x1="-1.75" y1="0.95" x2="1.7" y2="0.95" width="0.127" layer="21"/>
 <wire x1="1.7" y1="0.95" x2="1.7" y2="-0.95" width="0.127" layer="21"/>
 <wire x1="1.7" y1="-0.95" x2="-1.75" y2="-0.95" width="0.127" layer="21"/>
