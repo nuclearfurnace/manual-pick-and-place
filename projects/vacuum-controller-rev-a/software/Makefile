@@ -16,9 +16,10 @@
 #	You should have received a copy of the GNU General Public License
 #	along with simavr.  If not, see <http://www.gnu.org/licenses/>.
 
-target= vacuum_controller
-firm_src = ${wildcard at*${board}.c}
+target = vacuum_controller
+firm_src = ${wildcard at*${target}.c}
 firmware = ${firm_src:.c=.axf}
+firmware_hex = ${firm_src:.c=.hex}
 simavr = simavr
 
 IPATH = .
@@ -47,6 +48,12 @@ ${target}: ${board}
 
 run: all
 	${OBJ}/${target}.elf
+
+hex: all
+	avr-objcopy -j .text -j .data -O ihex ${firmware} ${firmware_hex}
+
+flash: hex
+	avrdude -c usbtiny -p t85 -e -U flash:w:${firmware_hex} -U lfuse:w:0xe2:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
 
 clean: clean-${OBJ}
 	rm -rf *.a *.axf ${target} *.vcd *.hex
